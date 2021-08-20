@@ -3031,13 +3031,13 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
-				color: #fff;
+				background: #0B2840;
+				color: #d2f2e9;
 				min-width: 320px;
 			}
 
 				#titleBar .title {
-					color: #fff;
+					color: #d2f2e9;
 					display: block;
 					font-weight: 700;
 					height: 44px;
@@ -3078,7 +3078,7 @@ input, select, textarea {
 
 					#titleBar .toggle:before {
 						background: #0B2840;
-						color: #ffffff;
+						color: #d2f2e9;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
