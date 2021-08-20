@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -2404,7 +2405,7 @@ input, select, textarea {
 			ul.feature-icons li:before {
 				background: #0B2840;
 				border-radius: 100%;
-				color: #ffffff;
+				color: #92cfb9;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2712,11 +2713,11 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #d2f2e9;
+			color: #5AC69F;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #d2f2e9;
 			}
 
 		#header header p {
