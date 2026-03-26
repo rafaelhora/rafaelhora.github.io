@@ -6,6 +6,23 @@
 'use strict';
 
 /* ---------------------------------------------------------
+   0. Auto-updating age
+   --------------------------------------------------------- */
+
+(function initAge() {
+  var ageEl = document.getElementById('age');
+  if (!ageEl) return;
+  var birth = new Date(1996, 3, 24); // April 24, 1996 (month is 0-indexed)
+  var today = new Date();
+  var age = today.getFullYear() - birth.getFullYear();
+  var monthDiff = today.getMonth() - birth.getMonth();
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  ageEl.textContent = age;
+})();
+
+/* ---------------------------------------------------------
    1. Navbar: scroll state + active link highlighting
    --------------------------------------------------------- */
 
